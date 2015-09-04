@@ -1,0 +1,11 @@
+include(../external/eigen-3.1.2/eigen.prf)
+HEADERS *= $$PWD/Types.h
+
+QT *= core gui opengl xml
+CONFIG -= app_bundle
+TEMPLATE = app
+DESTDIR = $$PWD/../deploy
+
+INCLUDEPATH *= $$PWD
+DEPENDPATH *= $$PWD
+

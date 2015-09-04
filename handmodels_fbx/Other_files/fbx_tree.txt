@@ -1,0 +1,63 @@
+<node name='Hand' translation='(0.000000, 0.000000, 0.000000)' rotation='(0.000000, 0.000000, 0.000000)' scaling='(1.000000, 1.000000, 1.000000)'>
+	<attribute type='mesh' name=''/>
+</node>
+<node name='Lamp' translation='(4.076245, 5.903862, -1.005454)' rotation='(47.533569, 107.220764, 10.743665)' scaling='(1.000000, 1.000000, 1.000000)'>
+	<attribute type='light' name=''/>
+</node>
+<node name='Camera' translation='(7.481132, 5.343665, 6.507640)' rotation='(23.240194, 142.362350, 34.212074)' scaling='(1.000000, 1.000000, 1.000000)'>
+	<attribute type='camera' name='Camera'/>
+</node>
+<node name='HandRig' translation='(0.000000, 0.000000, 0.000000)' rotation='(-90.000000, 0.000000, 0.000000)' scaling='(1.000000, 1.000000, 1.000000)'>
+	<attribute type='skeleton' name=''/>
+	<node name='lower_arm' translation='(0.016771, -0.009136, 0.011134)' rotation='(0.977266, -13.863337, 81.974518)' scaling='(1.000000, 1.000000, 1.000000)'>
+		<attribute type='skeleton' name=''/>
+		<node name='hand_0' translation='(1.635178, 0.000000, 0.000000)' rotation='(0.193053, 6.171211, 3.529475)' scaling='(1.000000, 1.000000, 1.000000)'>
+			<attribute type='skeleton' name=''/>
+			<node name='middle_0' translation='(0.802753, 0.000000, 0.000000)' rotation='(-0.230267, 6.478785, 0.467787)' scaling='(1.000000, 1.000000, 1.000000)'>
+				<attribute type='skeleton' name=''/>
+				<node name='middle_1' translation='(0.380736, 0.000000, 0.000000)' rotation='(0.048131, 12.432936, 2.166753)' scaling='(1.000000, 1.000000, 1.000000)'>
+					<attribute type='skeleton' name=''/>
+					<node name='middle_2' translation='(0.212567, 0.000000, -0.000000)' rotation='(0.113083, -3.264095, -0.577414)' scaling='(1.000000, 1.000000, 1.000000)'>
+						<attribute type='skeleton' name=''/>
+					</node>
+				</node>
+			</node>
+			<node name='index_0' translation='(0.832064, -0.213826, 0.018338)' rotation='(-1.559236, 8.276880, -9.489623)' scaling='(1.000000, 1.000000, 1.000000)'>
+				<attribute type='skeleton' name=''/>
+				<node name='index_1' translation='(0.320320, 0.000000, 0.000000)' rotation='(-0.039519, 15.490907, 3.092732)' scaling='(1.000000, 1.000000, 1.000000)'>
+					<attribute type='skeleton' name=''/>
+					<node name='index_2' translation='(0.169149, 0.000000, 0.000000)' rotation='(0.675216, -3.050750, -2.358524)' scaling='(1.000000, 1.000000, 1.000000)'>
+						<attribute type='skeleton' name=''/>
+					</node>
+				</node>
+			</node>
+			<node name='ring_0' translation='(0.725116, 0.170520, 0.013628)' rotation='(0.684865, 6.298403, 7.275416)' scaling='(1.000000, 1.000000, 1.000000)'>
+				<attribute type='skeleton' name=''/>
+				<node name='ring_1' translation='(0.349959, 0.000000, -0.000000)' rotation='(0.146313, 13.063984, 5.864927)' scaling='(1.000000, 1.000000, 1.000000)'>
+					<attribute type='skeleton' name=''/>
+					<node name='ring_2' translation='(0.204095, 0.000000, 0.000000)' rotation='(0.354499, -3.985369, -1.737302)' scaling='(1.000000, 1.000000, 1.000000)'>
+						<attribute type='skeleton' name=''/>
+					</node>
+				</node>
+			</node>
+			<node name='pinky_0' translation='(0.623246, 0.332526, -0.004582)' rotation='(2.480318, 14.652532, 20.786659)' scaling='(1.000000, 1.000000, 1.000000)'>
+				<attribute type='skeleton' name=''/>
+				<node name='pinky_1' translation='(0.244581, 0.000000, 0.000000)' rotation='(-0.728763, 9.182870, 5.497837)' scaling='(1.000000, 1.000000, 1.000000)'>
+					<attribute type='skeleton' name=''/>
+					<node name='pinky_2' translation='(0.139338, 0.000000, -0.000000)' rotation='(1.736657, -6.118054, -6.040539)' scaling='(1.000000, 1.000000, 1.000000)'>
+						<attribute type='skeleton' name=''/>
+					</node>
+				</node>
+			</node>
+			<node name='thumb_0' translation='(0.049049, -0.228900, -0.071569)' rotation='(90.484657, 14.230371, -30.276487)' scaling='(1.000000, 1.000000, 1.000000)'>
+				<attribute type='skeleton' name=''/>
+				<node name='thumb_1' translation='(0.444013, 0.000000, -0.000000)' rotation='(4.521811, 2.528943, -11.717616)' scaling='(1.000000, 1.000000, 1.000000)'>
+					<attribute type='skeleton' name=''/>
+					<node name='thumb_2' translation='(0.333711, 0.000000, -0.000000)' rotation='(-17.642174, 10.615993, 3.648404)' scaling='(1.000000, 1.000000, 1.000000)'>
+						<attribute type='skeleton' name=''/>
+					</node>
+				</node>
+			</node>
+		</node>
+	</node>
+</node
